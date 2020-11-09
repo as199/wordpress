@@ -1,0 +1,10 @@
+2020-11-06T15:13:45+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Cart::wc_get_checkout_url() in /opt/lampp/htdocs/wordpress/wp-content/plugins/akouendy-woocommerce-orange-money-gateway/akouendy-woocommerce-gateway.php:293
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/akouendy-woocommerce-orange-money-gateway/akouendy-woocommerce-gateway.php(306): WC_Akouendy->post_to_url('https://pay.ako...', Array, 1487)
+#1 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(959): WC_Akouendy->process_payment(1487)
+#2 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(1162): WC_Checkout->process_order_payment(1487, 'akouendy')
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(464): WC_Checkout->process_checkout()
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(287): WC_AJAX::checkout('')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 /opt/lampp/h dans /opt/lampp/htdocs/wordpress/wp-content/plugins/akouendy-woocommerce-orange-money-gateway/akouendy-woocommerce-gateway.php à la ligne 293
+
